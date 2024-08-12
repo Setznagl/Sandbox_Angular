@@ -1,0 +1,8 @@
+.small-title{font-size: 2rem;}
+.green-title{color: rgb(33, 90, 71);}
+.border-red{border: 2px solid rgb(234, 255, 6);}
+.format{
+    text-align: center;
+    background-color: rgb(183, 190, 162);
+    font-weight: bold;
+}

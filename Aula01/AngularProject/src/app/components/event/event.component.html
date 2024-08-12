@@ -1,0 +1,5 @@
+<div [ngClass]="styleClasses">
+  <p>event works!</p>
+  <button (click)="toggleMessage()">Here's a button</button>
+  <p *ngIf="showMessage === true">and the button was clicked!</p>
+</div>
