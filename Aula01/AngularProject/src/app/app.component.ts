@@ -5,11 +5,12 @@ import { ParentDataComponent } from "./components/parent-data/parent-data.compon
 import { DirectiveComponent } from "./components/directive/directive.component";
 import { IfRenderComponent } from "./components/if-render/if-render.component";
 import { EventComponent } from "./components/event/event.component";
+import { PipeOperatorComponent } from "./components/pipe-operator/pipe-operator.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfRenderComponent, EventComponent],
+  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfRenderComponent, EventComponent, PipeOperatorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

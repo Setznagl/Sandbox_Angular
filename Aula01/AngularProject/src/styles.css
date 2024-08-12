@@ -4,3 +4,12 @@ h1{
     background-color: black;
     color: cyan;
 }
+
+.small-title{font-size: 2rem;}
+.title{color: rgb(254, 254, 254);}
+.border{border: 2px solid rgb(255, 8, 0);}
+.format{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+}
