@@ -2,6 +2,7 @@ import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 
 import { Animal } from '../../Animal';
+import { ListService } from '../../services/list.service';
 
 @Component({
   selector: 'app-list-render',
@@ -11,6 +12,8 @@ import { Animal } from '../../Animal';
   styleUrl: './list-render.component.css'
 })
 export class ListRenderComponent {
+
+  constructor(private listservice: ListService){}
 
   animals: Animal[] = [
 

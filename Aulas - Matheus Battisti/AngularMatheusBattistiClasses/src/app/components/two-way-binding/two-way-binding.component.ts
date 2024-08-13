@@ -10,6 +10,6 @@ import { FormsModule } from '@angular/forms';
 })
 export class TwoWayBindingComponent {
 
-  name: String = '';
+  nome: String = '';
 
 }

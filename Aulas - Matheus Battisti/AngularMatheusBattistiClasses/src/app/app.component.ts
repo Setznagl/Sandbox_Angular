@@ -11,6 +11,7 @@ import { ListRenderComponent } from "./components/list-render/list-render.compon
 import { PipesComponent } from "./components/pipes/pipes.component";
 import { TwoWayBindingComponent } from "./components/two-way-binding/two-way-binding.component";
 import { FormsModule } from '@angular/forms';
+import { CursosComponentComponent } from './components/cursos-component/cursos-component.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
             IfRenderComponent, EventosComponent,
             EmitterComponent, ChangeNumberComponent,
             ListRenderComponent, PipesComponent,
-            TwoWayBindingComponent, FormsModule],
+            TwoWayBindingComponent, FormsModule ,
+            CursosComponentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
