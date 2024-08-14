@@ -1,13 +1,28 @@
-<div>
+<!-- <div>
   <h2>Two way data binding</h2>
   <form action="">
     <input
       type="text"
-      [(ngModel)]="nome"
+      [(ngModel)]="animal"
       name="anything"
       placeholder="Your name!"
     />
     <input type="submit" value="Enviar" />
+    <p>O nome é : {{animal}}</p>
   </form>
-  <p>O nome é : {{nome}}</p>
+</div> -->
+
+<div>
+  <form>
+      <input type="text" [(ngModel)]="ComponentScope_Animal" name="anything" placeholder="anything"/>
+      <div *ngIf="ComponentScope_Animal.length !== 0">
+        <button (click)="addAnimal()">Adicionar</button>
+      </div>
+  </form>
+  <button (click)="showAnimals()">Exibir animais</button>
+  <ul>
+    <li *ngFor="let alias of ComponentScope_AnimalList">
+      <p>{{alias}}</p>
+    </li>
+  </ul>
 </div>
