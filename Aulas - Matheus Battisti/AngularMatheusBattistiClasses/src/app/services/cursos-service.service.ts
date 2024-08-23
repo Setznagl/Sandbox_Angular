@@ -5,8 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class CursosServiceService {
 
-  getCursos(){
-    return ['Angular2' , 'Java']
-  }
+
 
 }
